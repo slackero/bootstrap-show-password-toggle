@@ -6,7 +6,7 @@
 A show password as text toggle for Bootstrap forms
 
 - Native-looking UI
-- Vanilla JavaScript with no dependencies
+- Vanilla JavaScript with no dependencies (but jQuery version included to support older browsers)
 - Base64 encoded SVG icons (no external images or fonts required)
 - Graceful fallback for browsers with JavaScript disabled
 - Works with Bootstrap 4 and 5
@@ -37,7 +37,7 @@ A show password as text toggle for Bootstrap forms
 </div>
 ```
 
-3. Load the `show-password-toggle.min.js` after the form
+3. Load the `show-password-toggle.min.js` after the form. Load the jQuery related version `show-password-toggle-jquery.min.js` instead if also older browsers should be supported.
 
 I highly recommend adding the attributes: `spellcheck="false"` and `autocapitalize="off"` to the password input so that when the password is displayed in plain text the input is not auto-corrected, capitalized or spellchecked (to avoid red squiggly line underneath).
 
